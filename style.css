@@ -1,0 +1,38 @@
+body {
+    background-image: url(images/coco.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img.logo {
+    margin: 150px 0px 0px 57%;
+    height: 160px;
+}
+
+h1.title {
+    margin: 90px 120px 0px 50%;
+    float: right;
+    font-size: 28px;
+    text-align: left;
+    color: white;
+}
+
+p.tekst {
+    margin: 190px 100px 40px 50%;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+div.title {
+    margin: 50px 0px 0px 50%;
+}
+
+p.title2 {
+    background-color: #FF8200;
+    border-radius: 5px;
+    padding: 18px;
+    color: white;
+    width: 85px;
+    text-align: center;
+}
