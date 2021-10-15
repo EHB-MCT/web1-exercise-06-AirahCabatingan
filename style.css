@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 body {
     background-image: url(images/coco.jpg);
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Abel', sans-serif;
 }
 
 img.logo {
@@ -28,11 +31,16 @@ div.title {
     margin: 50px 0px 0px 50%;
 }
 
-p.title2 {
+a.title2 {
     background-color: #FF8200;
     border-radius: 5px;
     padding: 18px;
     color: white;
     width: 85px;
     text-align: center;
+    text-decoration: none;
+}
+
+a.title2:hover {
+    background-color: red;
 }
